@@ -6,8 +6,8 @@ from aiogram.filters import Command
 import asyncio
 
 load_dotenv()
-API_TOKEN = os.getenv("8621584119:AAEbdhtmlyxYKdni0zZA7vXawa133rb5K7A")
-ADMIN_ID = int(os.getenv("8271113983"))
+API_TOKEN = os.getenv("API_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
@@ -59,3 +59,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+    
